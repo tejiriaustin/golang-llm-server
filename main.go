@@ -1,8 +1,10 @@
+/*
+Copyright © 2024 NAME HERE <EMAIL ADDRESS>
+*/
 package main
 
-import (
-	"fmt"
-)
+import "github.com/tejiriaustin/golang-llm-server/cmd"
+
 func main() {
-	fmt.Printl("Hello world")
+	cmd.Execute()
 }
